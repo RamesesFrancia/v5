@@ -9,7 +9,6 @@
     </author>
 	<plugin name="cordova-plugin-sms" source="npm" />
 	<gap:plugin name="cordova-plugin-sms" source="npm" />
-	<gap:plugin name="onesignal-cordova-plugin" source="npm" />
 	<gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
 	<gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
 	<gap:plugin name="cordova-plugin-sms" source="npm" />
@@ -44,8 +43,5 @@
               <icon src="res/android/xhdpi.png" density="xhdpi" />
      </platform>	
 	
-	<vs:features>
-		<vs:feature>onesignal-cordova-plugin</vs:feature>
-	</vs:features>
 
   </widget>
