@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>version</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+	<plugin name="cordova-plugin-sms" source="npm" />
+	<gap:plugin name="cordova-plugin-sms" source="npm" />
+	<gap:plugin name="onesignal-cordova-plugin" source="npm" />
+	<gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
+	<gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
+	<gap:plugin name="cordova-plugin-sms" source="npm" />
+	<plugin name="com.phonegap.plugins.PushPlugin" source="npm"/>
+    <content src="index.html" />
+	<access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+	<access origin="tel:*" launch-external="yes"/>
+	<access origin="geo:*" launch-external="yes"/>
+	<access origin="mailto:*" launch-external="yes"/>
+	<access origin="sms:*" launch-external="yes"/>
+	<access origin="market:*" launch-external="yes"/>
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <access origin="*" />
+	
+	 <icon src="res/icon.png" />
+    <platform name="android">
+              <icon src="res/android/ldpi.png" density="ldpi" />
+              <icon src="res/android/mdpi.png" density="mdpi" />
+              <icon src="res/android/hdpi.png" density="hdpi" />
+              <icon src="res/android/xhdpi.png" density="xhdpi" />
+     </platform>	
+	
+	<vs:features>
+		<vs:feature>onesignal-cordova-plugin</vs:feature>
+	</vs:features>
+
+  </widget>
