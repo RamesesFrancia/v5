@@ -9,9 +9,9 @@
     </author>
 	<plugin name="cordova-plugin-sms" source="npm" />
 	<gap:plugin name="cordova-plugin-sms" source="npm" />
+	<gap:plugin name="onesignal-cordova-plugin" source="npm" />
 	<gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
 	<gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
-	<gap:plugin name="cordova-plugin-sms" source="npm" />
 	<plugin name="com.phonegap.plugins.PushPlugin" source="npm"/>
     <content src="index.html" />
 	<access origin="*" />
@@ -42,6 +42,4 @@
               <icon src="res/android/hdpi.png" density="hdpi" />
               <icon src="res/android/xhdpi.png" density="xhdpi" />
      </platform>	
-	
-
   </widget>
